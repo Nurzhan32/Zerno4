@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    position: relative;
+    height: 45px;
+    width: 400px;
+    color: #30507d;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #e9f2ff;
+    border-radius: 5px;
+    padding-left: 25px;
+    
+}    
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.font-title{
+    color: #30507d;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin: bottom 38px;
+}
+.form-field{
+    margin-bottom:13px;
+}
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    display:block;
+    height: 35px;
+    background: #247fff;
+    border-radius: 5px;
+    color: #e9f2ff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+    width: 400px;
+}
+.button:hover{
+    background-color: #247fff;
+
+a.button{
+    text-decoration: #247fff;
+}
+
+}
+.button-google{
+color: #e9f2ff;
+background:#e9f2ff ;
+width:100px ;
+}
+.register-form-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.form-title{
+    position:relative ;
+    top: -150px;
+    left: 200px;
+}
+.divider{
+    position: relative;
+    left: 180px;
+}

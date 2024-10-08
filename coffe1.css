@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img5{
+   position: relative;
+   left: 500px;
+   width: 100vh;
+   top: -250px;
+}
+    .container{
+        width: 90%;
+        background: linear-gradient(90deg, rgba(101,65,15,1) 0%, rgba(78,70,70,1) 44%, rgba(111,97,97,1) 84%) cover/no-repeat;
+         background-size:800% 800% ; 
+        animation: move-bg 13s linear infinite ;
+      }
+      @keyframes move-bg{
+        0%{
+          background-position: 0%,50% ;
+        }
+        50%{
+          background-position: 100%, 50%;
+        }
+        100%{
+          background-position: 0%, 50%;
+        }
+}
