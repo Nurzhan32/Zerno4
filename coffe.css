@@ -434,6 +434,7 @@ header nav ul li.btn a:hover {
       z-index: 1;
   }
   .hero .img1 {
+    top: 30px;
       width: 60%;
       left: 0;
       top: -10vw;
@@ -451,7 +452,7 @@ header nav ul li.btn a:hover {
       flex-direction: column;
   }
   header .logo {
-      font-size: 10vw;
+      font-size: 6vw;
   }
   .trending {
       top: 0;
