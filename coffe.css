@@ -423,3 +423,47 @@ header nav ul li.btn a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+      padding: 20px;
+  }
+  .hero--info {
+      width: 100%;
+      padding-top: 40px;
+  }
+  .hero .img1 {
+      width: 100%;
+      left: 0;
+      top: -10vw;
+  }
+  header {
+      margin: 20px 0;
+  }
+  header nav {
+      float: none;
+      text-align: center;
+      width: 100%;
+  }
+  header nav ul {
+      flex-direction: column;
+  }
+  header .logo {
+      font-size: 10vw;
+  }
+  .trending {
+      top: 0;
+  }
+  .trending h3 {
+      font-size: 6vw;
+  }
+  .block {
+      flex-direction: column;
+  }
+  .block img {
+      width: 100%;
+  }
+  .end--container {
+      padding: 20px;
+  }
+}
